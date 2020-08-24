@@ -10,6 +10,7 @@ First tutorial of Python and Django, by the way it's my first Python tutorial so
 	<li>https://docs.djangoproject.com/es/3.0/intro/tutorial04/</li>
 	<li>https://docs.djangoproject.com/es/3.0/intro/tutorial05/</li>
 	<li>https://docs.djangoproject.com/es/3.0/intro/tutorial06/</li>
+	<li>https://docs.djangoproject.com/es/3.0/intro/tutorial07/</li>
 </ul>
 
 More info:
