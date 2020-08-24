@@ -20,3 +20,6 @@ urlpatterns = [
 	path('polls/', include('polls.urls')),
     path('admin/', admin.site.urls),
 ]
+
+admin.site.site_header = 'My Site Django Tutorial H1'
+admin.site.site_title = 'My Site Django Tutorial Title'

@@ -1,0 +1,11 @@
+{% extends "admin/base.html" %}
+
+{% block title %}{{ title }} | {{ site_title|default:_('Django site admin') }}{% endblock %}
+
+{% block branding %}
+<h1 id="site-name"><a href="{% url 'admin:index' %}">{{ site_header|default:_('Polls administration') }}</a></h1>
+{# The texts can be change in urls.py https://stackoverflow.com/questions/50809763/how-do-i-change-the-name-of-the-django-admin-page/50810007#}
+{#<h1 id="site-name"><a href="{% url 'admin:index' %}">Polls administration</a></h1>#}
+{% endblock %}
+
+{% block nav-global %}{% endblock %}
